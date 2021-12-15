@@ -6,3 +6,11 @@ snack-4 Chiedi un numero di 4 cifre all’utente e calcola la somma di tutte le 
 snack-5 Crea un array vuoto e chiedi all’utente un numero da inserire nell’array. Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quando la somma degli elementi è minore di 50.
 */
 
+const numberUser = parseInt(prompt('digita un numero'));
+
+let cube = 0;
+
+for (i = 0; i < numberUser; i++) {
+    cube = Math.pow(i, 3);
+    console.log(cube);
+}

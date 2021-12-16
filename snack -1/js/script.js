@@ -9,11 +9,9 @@ snack-5 Crea un array vuoto e chiedi all’utente un numero da inserire nell’a
 let sum = 0;
 
 for (let i = 0; i < 10; i++) {
-    numbers = parseInt(prompt('digita un numero'));
-    console.log(numbers);
-    sum += numbers;
+  let numbers = parseInt(prompt("digita un numero"));
+  console.log(numbers);
+  sum += numbers;
 }
 
 console.log(sum);
-
-

@@ -10,7 +10,20 @@ let i = 0;
 let result = 0;
 
 do {
-    result = Math.pow(2, i);
-    console.log(result);
-    i++;  
+  result = Math.pow(2, i);
+  console.log(result);
+  i++;
 } while (result < 1000);
+
+// -----------------------------------------------------------
+
+// alternativa con while - non supera i 1000
+
+// let i = 2;
+// let y = 2;
+
+// while (Math.pow(2, i) < 1000) {
+//   y = Math.pow(2, i);
+//   console.log(y);
+//   i++;
+// }
